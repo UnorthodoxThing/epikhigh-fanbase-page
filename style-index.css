@@ -1,0 +1,193 @@
+*{
+
+}
+
+body {
+  background-color: #A9A9A9; /*DarkGrey*/
+}
+
+.set1 {
+  position: absolute;
+  margin-top: 700px;
+}
+
+#footer {
+  color: White;
+  font-family: times, sans-serif;
+  font-size: 1em;
+  position: relative;
+  display: block;
+  padding-left: 1em;
+  padding-top: 1em;
+  background-color: Black;
+  text-align: center;
+  height: 1.5em;
+  top: 1820px;
+}
+
+.cover-photo img {
+  visibility: hidden;
+}
+
+.cover-photo {
+  background: url(https://i.ytimg.com/vi/uNnu2iu3YoU/maxresdefault.jpg);
+  background-size: contain;
+  width: 1700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  display: block;
+  position: absolute;
+}
+
+.text1 {
+  position: absolute;
+  display: block;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  z-index: 1000;
+  top: 325px;
+  left: 150px;
+
+}
+
+/* Revise from here*/
+.logo2 {
+  display: block;
+  float: right;
+  position: relative;
+  Width: 22em;
+  Height: 21em;
+  background-color: White;
+  animation-name: name1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  z-index: 18;
+}
+
+@keyframes name1 {
+  0%   {background-color: White;}
+  25%  {background-color: yellow;}
+  50%  {background-color: cyan;}
+  100% {background-color: pink;}
+  Width: 22em;
+  Height: 21em;
+  display: block;
+  float: right;
+  position: relative;
+}
+
+#logo1 {
+  display: inline-block;
+  padding: 10px;
+  transition: translate(15,0);
+  Width: 20.2em;
+  Height: 20em;
+  position: relative;
+  z-index: 19;
+}
+
+.navigation nav ul li {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.3em;
+  margin: 0 auto;
+  padding: 2em;
+  display: inline;
+  text-align: center;
+  list-style: none;
+}
+
+.navigation nav ul li a {
+  color: #F9F9F9;
+  text-decoration-line: none;
+  text-decoration-line: -webkit-none;
+  text-decoration-line: -moz-none;
+  text-decoration-line: -ms-none;
+}
+
+.navigation nav ul {
+  margin: 0 auto;
+}
+
+.navigation {
+  background-color: black;
+  width: 1920px;
+  position: static;
+}
+
+.alpha-container .social-hub {
+float: right;
+display: block;
+position: relative;
+
+}
+
+.social-hub ul li{
+list-style: none;
+}
+
+.social-hub ul li a img {
+width: 5em;
+height: 5em;
+position: static;
+clear: right;
+
+}
+
+.container {
+  background-color: white;
+  Height: 70em;
+  Width: 1178px;
+  display: relative;
+  margin: 0 auto;
+  padding-left: 36px;
+  padding-right: 36px;
+  z-index: 0;
+}
+
+video {
+  margin: 0 auto;
+  display: block;
+}
+
+h2 {
+  font-family: 'Permanent Marker', sans-serif;
+  color: White;
+  padding-left: 10px;
+  width: 5.3em;
+  border-radius: 25px;
+  background-color: Black;
+}
+
+/*look into how to use max-width*/
+.container .promotion-text2 p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+  cursor:text;
+  text-align; left;
+  z-index: 10;
+  display: block;
+  max-width: 702px;
+  /*personal border-only transform experiment*/
+  border: 1px black dashed;
+  border-radius: 25px;
+  padding: 1em;
+  display: block;
+  transform: rotate(-3deg);
+}
+
+/*border only transform code example:
+#borderd {
+  position:relative;
+}
+#bordered:after {
+  content:"";
+  height:25px;
+  display:inline-block;
+  border:2px solid red;
+  position:absolute;
+  left:0;
+  width:75px;
+  transform: rotate(30deg);
+}
+*/
